@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.yqloss",
+    "module": "enchanted-java-plugin",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "enchanted-java-plugin-0.0.2.jar",
+          "url": "enchanted-java-plugin-0.0.2.jar",
+          "size": 44197,
+          "sha512": "92fa0f4aa2fe0baca57b9352e843fe15cd3de51dac554d6e79d5a13fd64c5d8c3986a73e1b374f5efce17e920c532b09d648eec2aa52b1bc90661d11bb615563",
+          "sha256": "ddad28d32423442460f84e7adeb6b05e97b668931f878804ab67caf748c946a2",
+          "sha1": "4dc71f02149c8390616516d8390134061cc1152a",
+          "md5": "70adcee5f9c85a7568c709409d3214ab"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.9"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.9"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.9"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "enchanted-java-plugin-0.0.2.jar",
+          "url": "enchanted-java-plugin-0.0.2.jar",
+          "size": 44197,
+          "sha512": "92fa0f4aa2fe0baca57b9352e843fe15cd3de51dac554d6e79d5a13fd64c5d8c3986a73e1b374f5efce17e920c532b09d648eec2aa52b1bc90661d11bb615563",
+          "sha256": "ddad28d32423442460f84e7adeb6b05e97b668931f878804ab67caf748c946a2",
+          "sha1": "4dc71f02149c8390616516d8390134061cc1152a",
+          "md5": "70adcee5f9c85a7568c709409d3214ab"
+        }
+      ]
+    }
+  ]
+}
