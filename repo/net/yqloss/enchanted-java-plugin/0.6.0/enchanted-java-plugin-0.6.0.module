@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.yqloss",
+    "module": "enchanted-java-plugin",
+    "version": "0.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "enchanted-java-plugin-0.6.0.jar",
+          "url": "enchanted-java-plugin-0.6.0.jar",
+          "size": 369802,
+          "sha512": "05fc066ede0555d42196061ee5dae9a1a311e92a4bfdabcb437f6c53a632613d4ade4ea6783ae3efb1fa05df0d79dd791a705bdbb17c7799bf7cae7a75e2b160",
+          "sha256": "fdee8ebefa580453aa5bb9179ffd5ce2b69e6f27b2a951dd6ebc9a08ff86e6fe",
+          "sha1": "c4f8cfca010b64109eb8da9d7b92d01577bd885e",
+          "md5": "5fb9331a9269104b9b58399305d725f8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "enchanted-java-plugin-0.6.0.jar",
+          "url": "enchanted-java-plugin-0.6.0.jar",
+          "size": 369802,
+          "sha512": "05fc066ede0555d42196061ee5dae9a1a311e92a4bfdabcb437f6c53a632613d4ade4ea6783ae3efb1fa05df0d79dd791a705bdbb17c7799bf7cae7a75e2b160",
+          "sha256": "fdee8ebefa580453aa5bb9179ffd5ce2b69e6f27b2a951dd6ebc9a08ff86e6fe",
+          "sha1": "c4f8cfca010b64109eb8da9d7b92d01577bd885e",
+          "md5": "5fb9331a9269104b9b58399305d725f8"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "enchanted-java-plugin-0.6.0.jar",
+          "url": "enchanted-java-plugin-0.6.0.jar",
+          "size": 369802,
+          "sha512": "05fc066ede0555d42196061ee5dae9a1a311e92a4bfdabcb437f6c53a632613d4ade4ea6783ae3efb1fa05df0d79dd791a705bdbb17c7799bf7cae7a75e2b160",
+          "sha256": "fdee8ebefa580453aa5bb9179ffd5ce2b69e6f27b2a951dd6ebc9a08ff86e6fe",
+          "sha1": "c4f8cfca010b64109eb8da9d7b92d01577bd885e",
+          "md5": "5fb9331a9269104b9b58399305d725f8"
+        }
+      ]
+    }
+  ]
+}
