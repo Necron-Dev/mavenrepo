@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "necron",
+    "module": "necron-layout",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "necron-layout-0.0.1.jar",
+          "url": "necron-layout-0.0.1.jar",
+          "size": 364130,
+          "sha512": "2f23eb355eb720521970ffb6c472add98992d23583b2ee44dd64f50fdbc927f5b3b1b7548a9afbf9f77f559f595612613d71f81690444d5f00b618b5bb586e1d",
+          "sha256": "857bf1fc13edb7a4e4f86faf790fc8b78a80b68411bd96a04b4c30f5f18561cf",
+          "sha1": "724667ddc52513ee5aadccf85036ce7688199b96",
+          "md5": "02b2af44592871ed16c57dae62720dc4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "necron-layout-0.0.1.jar",
+          "url": "necron-layout-0.0.1.jar",
+          "size": 364130,
+          "sha512": "2f23eb355eb720521970ffb6c472add98992d23583b2ee44dd64f50fdbc927f5b3b1b7548a9afbf9f77f559f595612613d71f81690444d5f00b618b5bb586e1d",
+          "sha256": "857bf1fc13edb7a4e4f86faf790fc8b78a80b68411bd96a04b4c30f5f18561cf",
+          "sha1": "724667ddc52513ee5aadccf85036ce7688199b96",
+          "md5": "02b2af44592871ed16c57dae62720dc4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "necron-layout-0.0.1-sources.jar",
+          "url": "necron-layout-0.0.1-sources.jar",
+          "size": 32540,
+          "sha512": "a802cc95ef0fa477a268658da30bddb4832e392435a4886c7791efac834d1259f504b093509bb42c878be1bf8243b66b268c6992d8b6fd306a7fe7e034e3503d",
+          "sha256": "254690a04e1c642103bb183b0c02341c232c3729b829580fe98e8f64ee32d9c5",
+          "sha1": "3ad11948c7e12c49310f274434d25661e730f322",
+          "md5": "b2fad60d60012a65781906ea5f26269b"
+        }
+      ]
+    }
+  ]
+}
